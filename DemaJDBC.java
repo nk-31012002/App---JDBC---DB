@@ -16,9 +16,9 @@ public class DemaJDBC {
         */
 
         //3.1(part of step 3)
-        String url = "jdbc:postgresql://localhost:5432/Demo";   //javaWillConnectingWithJDBC:JDBCwillConnectWithDBMS://ipAddress:PortNumber/DBName
-        String uname = "postgres";
-        String pass = "0000";
+        String url = "";   //javaWillConnectingWithJDBC:JDBCwillConnectWithDBMS://ipAddress:PortNumber/DBName
+        String uname = ""; //dbname
+        String pass = "";   //password
         String sql = "select sname from student where sid = 1";
 
 
