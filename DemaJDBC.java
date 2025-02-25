@@ -19,7 +19,7 @@ public class DemaJDBC {
         String url = "";   //javaWillConnectingWithJDBC:JDBCwillConnectWithDBMS://ipAddress:PortNumber/DBName
         String uname = ""; //dbname
         String pass = "";   //password
-        String sql = "select sname from student where sid = 1";
+        String sql = "";  //sql query like ```select sname from student where sid = 1```
 
 
 
